@@ -1,6 +1,7 @@
 - 👋 Hi, my name is @alishirani1384.
 - 👀 I’m interested in learning and making new things.
-- 🌱 I’m currently learning html/css and js.
+- 🥳 I’m 16 years old.
+- 💻 Now you can call me front-end developer. 
 - 💞️ I’m looking to collaborate on projects that realy cares about the best final.
 - 📫 you can contact me with email "alishiranii1384@gmail.com"
 
