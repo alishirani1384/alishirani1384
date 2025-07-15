@@ -1,19 +1,87 @@
-# Hi there, I'm Ali Shirani🖐️
-I'm **Ali Shirani** (he/him). I'm a Front-End Engineer by passion and an expat by choice living now in Esfahan, Iran. I have created many projects untill now  and have been passionate about front-end Technologies.  I'm always working on a new project to upper my level.
-## 📋  Languages
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+<!-- 
+███╗   ███╗██╗   ██╗██╗  ██╗
+████╗ ████║██║   ██║╚██╗██╔╝
+██╔████╔██║██║   ██║ ╚███╔╝ 
+██║╚██╔╝██║██║   ██║ ██╔██╗ 
+██║ ╚═╝ ██║╚██████╔╝██╔╝ ██╗
+╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝
+-->
 
-##  📚  Frameworks, Platforms and Libraries
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="Ilustração do README" min-width="400px" max-width="400px" width="400px" align="center">
 
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white)    ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+  <a href="[YOUR-WEBSITE-URL]">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=30F4F7¢er=true&vCenter=true&width=550&lines=INITIATING+SYSTEMS...;LOADING+SKILL+MATRIX...;FULL-STACK+ARCHITECT;DEVOPS+COMMANDER;READY" alt="Typing SVG" />
+  </a>
+</div>
 
-## ☁️  Hosting
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-## 💻  IDEs/Editors
-![CodePen](https://img.shields.io/badge/CodePen-white?style=for-the-badge&logo=codepen&logoColor=black) ![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<br>
 
-## 🎛️  Operating System
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-## Stats
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=alishirani1384&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alishirani1384&layout=compact)
+<div align="center">
+  <a href="https://linkedin.com/in/ali-shirani-145bb61a1"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://x.com/AliXShirani"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter"></a>
+  <a href="https://www.youtube.com/@YTCodewithAli"><img src="https://img.shields.io/badge/YouTube-D14836?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
+  <a href="mailto:alishiranii1384@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+</div>
+
+---
+
+### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> **MISSION BRIEFING**
+<p align="left">
+     A seasoned Software Engineer with a passion for architecting and deploying robust, scalable applications from the ground up. I thrive in the space where code meets infrastructure, orchestrating the entire lifecycle of a product. My expertise spans from crafting intuitive user interfaces to building resilient back-end systems and automating the CI/CD pipelines that bring them to life. I don't just build features; I build foundations.
+</p>
+
+---
+
+### <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700zu&rid=giphy.gif" width="30px"> **CORE ARSENAL**
+
+<table align="center">
+  <tr>
+    <td align="center" width="180">
+      <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="48" height="48" alt="Front-End" />
+      <br><strong>FRONT-END</strong>
+    </td>
+    <td align="center" width="180">
+      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXdnOHp5OWdrNjFvc2x2YTVlaG54dTU3dHR5cDE3eXFvZmJvN2ZyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LMt9638dO8dftAjtco/giphy.gif" width="48" height="48" alt="Back-End" />
+      <br><strong>BACK-END</strong>
+    </td>
+    <td align="center" width="180">
+      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3RwZ242MnRmcmlud2xzdXY0MnVrb3RnNHJoMDl1OHZxbG9jNTUwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/QTmfvHGklosY1ha87W/giphy.gif" width="48" height="48" alt="DevOps" />
+      <br><strong>DEVOPS</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">React, Vue, Next.js, Svelte, TailwindCSS, WebGL</td>
+    <td align="center">Node.js, Go, Python, Rust, PostgreSQL, MongoDB, Redis</td>
+    <td align="center">Docker, Kubernetes, AWS, GCP, Terraform, Ansible, Jenkins</td>
+  </tr>
+</table>
+
+<details align="center">
+  <summary><strong>View Full Tech Stack</strong></summary>
+  <br>
+  <p align="center">
+    <!-- Add more specific icons/badges here -->
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
+    <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
+    <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform">
+  </p>
+</details>
+
+---
+
+### <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="30px"> **LIVE SYSTEM TELEMETRY**
+<div align="center">
+  
+  <!-- GitHub Stats -->
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=alishirani1384&show_icons=true&theme=dracula&hide_border=true&count_private=true" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://github.com/Platane/platane/raw/output/github-contribution-grid-snake.svg" alt="snake">
+</div>
+
