@@ -1,0 +1,113 @@
+name: Update ALI.OS metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/update-metrics.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Refresh metrics block
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 << 'PY'
+          import json
+          import os
+          import re
+          import urllib.request
+          from datetime import date
+
+          USER = "alishirani1384"
+          PACKAGES = ["rendercv-ts", "better-slug", "win95-portfolio"]
+          ACCOUNT_CREATED = date(2021, 7, 18)
+          README = "README.md"
+          START = "<!-- ALI_OS_METRICS:START -->"
+          END = "<!-- ALI_OS_METRICS:END -->"
+
+          token = os.environ["GH_TOKEN"]
+
+          def gh(url: str):
+              req = urllib.request.Request(
+                  url,
+                  headers={
+                      "Accept": "application/vnd.github+json",
+                      "User-Agent": "ALI.OS-metrics",
+                      "Authorization": f"Bearer {token}",
+                      "X-GitHub-Api-Version": "2022-11-28",
+                  },
+              )
+              with urllib.request.urlopen(req) as resp:
+                  return json.load(resp)
+
+          uptime_days = (date.today() - ACCOUNT_CREATED).days
+
+          repos = [gh(f"https://api.github.com/repos/{USER}/{name}") for name in PACKAGES]
+          current = max(repos, key=lambda r: r.get("pushed_at") or "")
+          current_name = current["name"]
+
+          commits = gh(
+              f"https://api.github.com/repos/{USER}/{current_name}/commits?per_page=1"
+          )
+          commit = commits[0]
+          sha = commit["sha"][:7]
+          message = commit["commit"]["message"].split("\n", 1)[0].strip()
+          if len(message) > 60:
+              message = message[:57] + "..."
+
+          block = "\n".join(
+              [
+                  START,
+                  "```text",
+                  "builder@future:~$ uptime",
+                  f"  up {uptime_days} days",
+                  "",
+                  "builder@future:~$ current",
+                  f"  {current_name}",
+                  "",
+                  "builder@future:~$ last",
+                  f"  {sha} — {message}",
+                  "```",
+                  END,
+              ]
+          )
+
+          with open(README, "r", encoding="utf-8") as f:
+              content = f.read()
+
+          pattern = re.compile(
+              re.escape(START) + r".*?" + re.escape(END),
+              re.DOTALL,
+          )
+          if not pattern.search(content):
+              raise SystemExit("ALI_OS_METRICS markers not found in README.md")
+
+          updated = pattern.sub(block, content, count=1)
+          with open(README, "w", encoding="utf-8", newline="\n") as f:
+              f.write(updated)
+
+          print(f"uptime={uptime_days} current={current_name} last={sha} — {message}")
+          PY
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No metrics changes"
+          else
+            git commit -m "chore: refresh ALI.OS metrics"
+            git push
+          fi
