@@ -237,7 +237,7 @@ builder@future:~$ now
 <!-- ALI_OS_METRICS:START -->
 ```text
 builder@future:~$ uptime
-  up 1873 days
+  up 1874 days
 
 builder@future:~$ current
   rendercv-ts
